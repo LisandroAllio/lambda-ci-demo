@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Instalando dependencias (si las hubiera)..."
+  build:
+    commands:
+      - echo "Empaquetando código fuente..."
+      - zip -r function.zip lambda_function.py
+artifacts:
+  files:
+    - function.zip
+
