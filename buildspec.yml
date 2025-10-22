@@ -10,5 +10,6 @@ phases:
       - zip -r function.zip lambda_function.py
 artifacts:
   files:
-    - function.zip
+    - lambda_function.py
+
 
