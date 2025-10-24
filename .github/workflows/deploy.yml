@@ -21,7 +21,7 @@ jobs:
       - name: Configure AWS credentials via OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::643681787571:role/GitHubOIDCRole-2 
+          role-to-assume: arn:aws:iam::643681787571:role/GitHubOIDCRole 
           aws-region: us-east-1
 
       - name: Generate artifact with Environment data
